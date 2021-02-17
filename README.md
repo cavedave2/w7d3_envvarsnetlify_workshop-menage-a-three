@@ -1,37 +1,70 @@
-# Environment Variables in React and Hosting - Workshop
+# Getting Started with Create React App
 
-# Part One:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You might remember a few weeks ago that we used an API with details about astronauts when we looked at RESTful APIs. We'll be using that API again today to create and deploy a front end.
+## Available Scripts
 
-👉 1.1. In this repo, run the `npx create-react-app` command and code a simple React app that fetches from an external API and displays some data from that API on the page. Options include (but aren't limited to):
-- Kanye.rest: 
-https://api.kanye.rest 
-- Dad jokes: https://icanhazdadjoke.com/
-- Star Wars: https://swapi.dev/
-- Pokemon: https://pokeapi.co/
-- The astronaut API from a few weeks ago: https://astronauts-postgres-playground.herokuapp.com/astronauts
+In the project directory, you can run:
 
-Keep your app as simple as possible! Now is not the time to make a glorious component tree like we usually do. Make something simple and don't spend time with advanced functionality or styling - it should be similar to the Kanye app in the demo so that you can move on to your first hosting practice.
+### `yarn start`
 
-👉 1.2. Once you've tested your environment variable locally and then pushed up, in your team's GitHub repo, make a fork of the team repo on your personal GitHub accounts. (There's a button at the top right of the repo page that says 'Fork'.)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-⚠️ *Note: You both should do the rest of this task, deploying your personal forks, but please do it **one at a time** while pairing and talking things through/sharing screens as usual!*
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-👉 1.3. Go to [the Netlify website](https://www.netlify.com/) and sign up with your GitHub account.
+### `yarn test`
 
-👉 1.4. Click the 'New site from Git' button and deploy your site. Don't forget to add your environment variable in the advanced settings! If there are any build errors and the deploy fails, you can view the deploy log on Netlify to read and fix any error messages before redeploying.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-👉 1.5. Once your site is successfully deployed, change the URL from the randomly-generated words to whatever you'd like to to be, and navigate to it to make sure it works!
+### `yarn build`
 
-## Part Two:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Once you've both deployed your forks of the astronaut app repo, keep practicing with other repos from past workshops and hackathons. 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-👉 Take turns choosing a repo and following the same steps as above:
-- Make a fork.
-- Clone down the fork and make environment variables where necessary (including fetch URLs).
-- Test that your environment variables are set up and your app is still functioning by running the app with the development server locally.
-- Deploy the forked repo on Netlify!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-⚠️ *Note: The yellow warning messages that show up in your console (e.g. a warning about an unused variable) normally don't stop your app from working on the local development server. However, they will stop the deployment. If your deployment fails because of any warnings, use your bug-fixing skills to fix the warnings, and then redeploy the app.*
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
